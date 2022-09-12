@@ -45,13 +45,17 @@ h2 {
 
 .Weather .temperature {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 70px;
   line-height: 50px;
 }
 
 .Weather .unit {
   font-size: 20px;
   position: relative;
-  top: -20px;
+  top: -30px;
   margin-left: 5px;
+}
+
+.WeatherTemperature .unit a {
+  text-decoration: none;
 }
