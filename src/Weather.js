@@ -13,6 +13,7 @@ export default function Weather(props) {
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
+      icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
       maxTemperature: response.data.main.temp_max,
       minTemperature: response.data.main.temp_min,

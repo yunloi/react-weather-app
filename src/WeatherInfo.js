@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
@@ -8,13 +9,10 @@ export default function WeatherInfo(props) {
       <h2>
         <FormattedDate date={props.data.date} />
       </h2>
-      <div className="row">
-        <div className="col-4 mt-2">
-          <div className="clearfix">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/1779/1779940.png"
-              alt="icon"
-            />
+      <div className="row mt-4">
+        <div className="col-4">
+          <div className="d-flex justify-content-center">
+            <WeatherIcon code={props.data.icon} />
           </div>
         </div>
         <div className="col-3">
