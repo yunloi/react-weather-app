@@ -12,7 +12,7 @@ export default function WeatherInfo(props) {
         <FormattedDate date={props.data.date} />
       </h2>
       <div className="row mt-4">
-        <div className="col-3">
+        <div className="col-4">
           <div className="d-flex justify-content-center">
             <WeatherIcon code={props.data.icon} size={120} />
           </div>
@@ -26,7 +26,7 @@ export default function WeatherInfo(props) {
             <h3>Now</h3>
           </ul>
         </div>
-        <div className="col-3">
+        <div className="col-4">
           <ul>
             <li>High: {Math.round(props.data.maxTemperature)}℃</li>
             <li>Low: {Math.round(props.data.minTemperature)}℃</li>
