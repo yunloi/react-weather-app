@@ -16,6 +16,14 @@ export default function App() {
             rel="noopener noreferrer"
           >
             open sourced on GitHub
+          </a>{" "}
+          in{" "}
+          <a
+            href="https://clever-cactus-dd11c5.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
